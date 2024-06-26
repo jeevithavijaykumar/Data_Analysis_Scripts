@@ -1,6 +1,6 @@
 # Use marker size to show intensity
 # Use colorbar to show intensity
-# use Rectangle to highlight high density area
+# Draw Rectangle to highlight high density area
 
 import pandas as pd
 import matplotlib.pyplot as plt
