@@ -1,4 +1,5 @@
-# calculate mean and std dev
+# Statistical analysis
+# calculate mean and standard deviation of sensors
 
 import pandas as pd
 import matplotlib.pyplot as plt
