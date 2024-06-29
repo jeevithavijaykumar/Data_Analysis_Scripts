@@ -29,6 +29,6 @@ for c,b in zip(counts,bins):
         plt.annotate(f'{int(c)}',(b,c),ha='center', va='bottom')
 plt.xlabel('Feature1')
 plt.ylabel('Frequency')
-plt.title('Histogram of Feature1')
+plt.title('Histogram')
 plt.show()
 
