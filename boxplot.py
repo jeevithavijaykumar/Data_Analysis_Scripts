@@ -23,7 +23,7 @@ plt.grid(True,linestyle='--')
 plt.legend(title='operation')
 plt.show()
 
-# find max, min and median values for sensor00
+# find max, min and median values
 df['max_val']= df.groupby('operation')['sensor_00'].transform('max')
 df['min_val'] = df.groupby('operation')['sensor_00'].transform('min')
 df['mean_val']=df.groupby('operation')['sensor_00'].transform('mean')
